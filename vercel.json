@@ -10,5 +10,10 @@
             "use": "@vercel/static"
         }
     ],
-    "routes": [{ "src": "/(.*)", "dest": "api/index.php" }]
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "api/index.php"
+        }
+    ]
 }
